@@ -45,6 +45,13 @@
             <div class="image">
                 <a href="home.html"><img src="images/logo-2.png"></a>
             </div>
+
+            <?php
+            $filePath = $_SERVER['SCRIPT_FILENAME'];
+            $fileName = basename($filePath);
+            $lastModified = filemtime($filePath);
+            echo "Last modified: " . date("F d, Y H:i:s", $lastModified);
+            ?>
         </section>
     </footer>
 

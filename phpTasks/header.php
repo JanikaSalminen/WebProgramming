@@ -22,8 +22,8 @@
             <ul>
                 <li><a href="ex1.php">TASK1</a></li>
                 <li><a href="ex2.php">TASK2</a></li>
-                <li><a href="shop.html">TASK3</a></li>
-                <li><a href="about.html">TASK4</a></li>
+                <li><a href="ex3.php">TASK3</a></li>
+                <li><a href="ex4.php">TASK4</a></li>
                 <li><a href="contact.html">TASK5</a></li>
                 <li><a href="contact.html">TASK6</a></li>
                 <li><a href="contact.html">TASK7</a></li>
