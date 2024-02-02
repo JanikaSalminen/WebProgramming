@@ -30,18 +30,23 @@ include 'header.php'; ?>
 
             <?php
             if ($_SERVER["REQUEST_METHOD"] == "POST"){
-                // user input
-                $nimi = $_POST["nimi"];
-                $ika = intval($_POST["ika"]);
+                // Check if nimi and ika are set in $_POST
+                if(isset($_POST["nimi"]) && isset($_POST["ika"])){
+                    // user input
+                    $nimi = $_POST["nimi"];
+                    $ika = intval($_POST["ika"]);
 
-                //if you are over 18
-                if ($ika >= 18){
-                    $vastaus ="You are eligible for voting $nimi";
-                }   else{
-                    $vastaus ="Unfortunatelly you are not eligible for voting $nimi";
-                }
-                echo "<p>$vastaus</p>";
-            }
+                    //if you are over 18
+                    if ($ika >= 18){
+                        $vastaus ="You are eligible for voting $nimi";
+                    } else{
+                        $vastaus ="Unfortunately you are not eligible for voting $nimi";
+                    }
+                        echo "<p>$vastaus</p>";
+                    } else {
+                        echo " ";
+                    }
+                    }
             ?>
 
             
