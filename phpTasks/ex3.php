@@ -12,7 +12,7 @@ include 'header.php'; ?>
 
     <div class="article"> 
         <h2>3.2 Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname. Use the echo statement to print “Hello [Firstname] [Lastname], You are welcome to my site.” inside an h3 tag. Table & Form Guide</h2>
-
+        <div class="bootstrap-form mt-3">
         <form method="post" action="process.php">
                 <div class="bs">
                     <label for="firstname">Firstname:</label>
@@ -24,6 +24,7 @@ include 'header.php'; ?>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+        </div>
     
 
             <br>
