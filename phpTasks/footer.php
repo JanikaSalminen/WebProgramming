@@ -43,7 +43,7 @@
         </section>
         <section class="col-4">
             <div class="image">
-                <a href="home.html"><img src="images/logo-2.png"></a>
+                <a href="/phpTasks/home.html"><img src="/phpTasks/images/logo-2.png"></a>
             </div>
 
             <?php
@@ -53,6 +53,8 @@
             echo "Last modified: " . date("F d, Y H:i:s", $lastModified);
             ?>
         </section>
-    </footer>
+</footer>
+</body>
+</html>
 
 

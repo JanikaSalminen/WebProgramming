@@ -34,6 +34,7 @@
     padding-left: 30px;
 }
 
+
 .header-container .navigation {
     display: flex;
     justify-content: flex-end;
@@ -262,8 +263,6 @@ article{
 
 /* About section */
 
-
-
 .article {
     font-family: 'Lato', sans-serif;
     font-size: 17px;
@@ -296,3 +295,16 @@ article{
     align-items: center; 
   }
 
+/*ex7 form*/
+
+.ex7container {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    width:70%;
+    margin:10px auto;
+    padding-bottom:10px;
+    padding-top: 10px;
+    text-align: justify;
+    
+}
